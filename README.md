@@ -14,7 +14,8 @@
    ![gray](https://user-images.githubusercontent.com/47334614/230946893-a2adc8d4-4e7c-4fe4-9e03-537d3e0d1bbf.png)
 
        
-## (2) Segmentation: Characters segmentation is done in two steps: 
+## (2) Segmentation: 
+     Characters segmentation is done in two steps: 
       (a) Line Segmentation: For line segmentation in printed text, a simple technique works well which is very similar to HPP(Horizontal Projection Profile). Every segmented line is stored in a python list for further steps.
    ![line1](https://user-images.githubusercontent.com/47334614/230943073-ecdc0abb-882c-446f-855b-3bbb261f65ad.png)
    ![line2](https://user-images.githubusercontent.com/47334614/230943081-b1a5e899-3e30-451a-8f2c-fc4c730de473.png)
@@ -28,7 +29,8 @@
 ## (3) Touching Character Segmentation: m = vertical length of a character, n = horizontal length(width) of a character
                                         if (.80)*m < n: then those two characters are separated.   
                                        
-## (4) Results: Single Character Segmentation Accuracy: 164/168
+## (4) Results: 
+                Single Character Segmentation Accuracy: 164/168
                 Double Character Segmentation Accuracy:   4/168
                 Triple or more character Segmentation Accuracy: 0/168
                            
