@@ -6,11 +6,12 @@
 ## (1) Image Pre-processsing: 
       (a) If average intensity of the image is between .50 and .90 then normalize that image 
           else if average intensity of the image is more than or equal to .90 then apply CLAHE (Constrast Limited Adaptive Histogram Equalization). Usually, CLAHE is used to improve contrast.
-          ![original](https://user-images.githubusercontent.com/47334614/230942992-aa23bbc3-6050-47be-a7a4-415a10768a6b.png)
+          ![original](https://user-images.githubusercontent.com/47334614/230946871-c7e59eb4-8b8b-4667-97eb-a14a3065944d.png)
+
 
 
       (b) Binarization: Used Otsu's thresholding method for image binarization for better performance of segmentation algorithms. Before binarization of an RGB image, it is converted to grayscale image.
-           ![gray](https://user-images.githubusercontent.com/47334614/230943027-5eb69c79-75aa-4588-a940-ff7f8a62f03c.png)
+           ![gray](https://user-images.githubusercontent.com/47334614/230946893-a2adc8d4-4e7c-4fe4-9e03-537d3e0d1bbf.png)
 
        
 ## (2) Segmentation: Characters segmentation is done in two steps: 
