@@ -29,7 +29,7 @@
 ## (3) Touching Character Segmentation: m = vertical length of a character, n = horizontal length(width) of a character
                                         if (.80)*m < n: then those two characters are separated.   
                                        
-## (4) Results: 
+## Results: 
                 Single Character Segmentation Accuracy: 164/168
                 Double Character Segmentation Accuracy:   4/168
                 Triple or more character Segmentation Accuracy: 0/168
