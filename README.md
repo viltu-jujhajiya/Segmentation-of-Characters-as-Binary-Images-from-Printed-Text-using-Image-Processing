@@ -31,6 +31,6 @@
      if (.80)*m < n: then those two characters are separated.   
                                        
 ## Results: 
-                Single Character Segmentation Accuracy: 164/168 = 0.98
+                Single Character Segmentation Accuracy: 0.98%
                            
       
