@@ -1,5 +1,5 @@
-# Segmentation-of-Characters-as-Binary-Images-from-Printed-Text
-"Segmentation-of-Characters-as-Binary-Images-from-Printed-Text" is a image processing task. It is useful in reading/copying/recognition of character/word/sentence in a printed document.  
+# Segmentation-of-Characters-as-Binary-Images-from-Printed-Text-using-Image-Processing-only
+"Segmentation-of-Characters-as-Binary-Images-from-Printed-Text" is a image processing task. It is useful in reading/copying/recognition of character/word/sentence in a printed document. In this project, character segmenatation was done using image processing only without using any Machine Learning / Deep Learning.
 
 ## Working Steps
 
